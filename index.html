@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Sorry ❤️</title>
+  <title>I'm Sorry ❤️</title>
   <style>
     body {
       background-color: #fef6e4;
@@ -10,25 +10,22 @@
       text-align: center;
       padding: 50px;
     }
-
     h1 {
       font-size: 2.5em;
       color: #e63946;
     }
-
     p {
       font-size: 1.4em;
-      color: #333;
+      color: #332;
       margin: 15px 0;
     }
-
     .heart {
       font-size: 3em;
       animation: beat 1s infinite alternate;
       color: red;
       margin-top: 20px;
+      cursor: pointer;
     }
-
     @keyframes beat {
       to {
         transform: scale(1.3);
@@ -40,6 +37,16 @@
   <h1>I'm Really Sorry 😔</h1>
   <p>Sorry for ruining your mood 🥺</p>
   <p>Good night, my love 🌙💤</p>
-  <div class="heart">❤️</div>
+  <div class="heart" onclick="playSong()">❤️</div>
+
+  <script>
+    function playSong() {
+      const audio = document.createElement('audio');
+      audio.src = "https://www.youtube.com/watch?v=n2dVFdqMYGA"; // YouTube URL
+      audio.play().catch(() => {
+        alert("Click to play the song: Sahiba by Aditya Rikhari");
+      });
+    }
+  </script>
 </body>
 </html>
