@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>I'm Sorry Shriya 💗</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>I'm Sorry, Shriya 🥺💖</h1>
+
+    <img 
+      src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzY3b3ZzZzR0NmZyNnhnMHF2b3F5M2Z6MW1qMXg4dGZ6bG9yZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ROF8OQvDmxytW/giphy.gif" 
+      alt="Sorry gif"
+      class="main-gif"
+    >
+
+    <p class="message">
+      Hey <span>Shriya</span>,  
+      I know I messed up, and I'm really sorry for hurting you.  
+      You mean a lot to me, more than words can explain.  
+      Please forgive me 🥹💗
+    </p>
+
+    <button onclick="showLove()">Click if you forgive me 👉👈</button>
+
+    <div id="hiddenMessage" class="hidden">
+      <h2>You made my heart smile again 😭💞</h2>
+      <img 
+        src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGJ3aHZrZDRzY3d2czl5NWR4Y3E0Z2RzN3c3ZHZjNXU1eGZ0cCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/MDJ9IbxxvDUQM/giphy.gif"
+        alt="Love gif"
+      >
+      <p>
+        Thank you for being you, Shriya 💕  
+        I promise to do better and protect your smile 🌸
+      </p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

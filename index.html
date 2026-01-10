@@ -1,52 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>I'm Sorry ❤️</title>
-  <style>
-    body {
-      background-color: #fef6e4;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      text-align: center;
-      padding: 50px;
-    }
-    h1 {
-      font-size: 2.5em;
-      color: #e63946;
-    }
-    p {
-      font-size: 1.4em;
-      color: #333;
-      margin: 15px 0;
-    }
-    .heart {
-      font-size: 3em;
-      animation: beat 1s infinite alternate;
-      color: red;
-      margin-top: 20px;
-      cursor: pointer;
-    }
-    @keyframes beat {
-      to {
-        transform: scale(1.3);
-      }
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <title>I'm Sorry Shriya 💗</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>I'm Really Sorry 😔</h1>
-  <p>Sorry for ruining your mood 🥺</p>
-  <p>Good night, my love 🌙💤</p>
-  <div class="heart" onclick="playSong()">❤️</div>
 
-  <script>
-    function playSong() {
-      const audio = document.createElement('audio');
-      audio.src = "https://www.youtube.com/watch?v=n2dVFdqMYGA"; // YouTube URL
-      audio.play().catch(() => {
-        alert("Click to play the song: Sahiba by Aditya Rikhari");
-      });
-    }
-  </script>
+  <div class="container">
+    <h1>I'm Sorry, Shriya 🥺💖</h1>
+
+    <img 
+      src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzY3b3ZzZzR0NmZyNnhnMHF2b3F5M2Z6MW1qMXg4dGZ6bG9yZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ROF8OQvDmxytW/giphy.gif" 
+      alt="Sorry gif"
+      class="main-gif"
+    >
+
+    <p class="message">
+      Hey <span>Shriya</span>,  
+      I know I messed up, and I'm really sorry for hurting you.  
+      You mean a lot to me, more than words can explain.  
+      Please forgive me 🥹💗
+    </p>
+
+    <button onclick="showLove()">Click if you forgive me 👉👈</button>
+
+    <div id="hiddenMessage" class="hidden">
+      <h2>You made my heart smile again 😭💞</h2>
+      <img 
+        src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGJ3aHZrZDRzY3d2czl5NWR4Y3E0Z2RzN3c3ZHZjNXU1eGZ0cCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/MDJ9IbxxvDUQM/giphy.gif"
+        alt="Love gif"
+      >
+      <p>
+        Thank you for being you, Shriya 💕  
+        I promise to do better and protect your smile 🌸
+      </p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
